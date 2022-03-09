@@ -15,5 +15,14 @@ class Doctor {
     static constraints = {
 
         //Write Constraints
+        fullName blank:false, nullable:false
+		qualification blank:false, nullable:false
+		position blank:false, nullable:false
+		doctorEmail blank:false, nullable:false, email:true, unique:true
+		password blank:false, nullable:false 
+		doctorOffice blank:false, nullable:false  
+		doctorPhone blank:false, nullable:false, size:0..15
+		bio blank:false, nullable:false, widget:'textarea';
+		
     }
 }
