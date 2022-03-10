@@ -21,4 +21,6 @@ class Prescription {
 		patientpaying blank:false, nullable:false
 		
     }
+    //Declaring Relationships
+    static belongsTo = [doctor:Doctor, patient:Patient]
 }

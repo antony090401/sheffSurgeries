@@ -25,4 +25,6 @@ class Surgery {
 		
 
     }
+    //Declaring Relationships
+    static hasMany = [doctor:Doctor, receptionist:Receptionist, appointment:Appointment, patient:Patient, nurse:Nurse]
 }

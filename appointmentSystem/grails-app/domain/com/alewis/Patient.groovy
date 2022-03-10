@@ -23,4 +23,6 @@ class Patient {
 		patientPhone blank:false, nullable:false, size:0..15
 		
     }
+    //Declaring Relationships
+    static hasMany = [doctor:Doctor, surgery:Surgery, prescription:Prescription]
 }

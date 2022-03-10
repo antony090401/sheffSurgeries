@@ -19,4 +19,7 @@ class Nurse {
 		nursePhone blank:false, nullable:false, size:0..15
 		
     }
+    //Declaring Relationships
+    static hasMany = [doctor:Doctor]
+    static belongsTo = [surgery:Surgery]
 }

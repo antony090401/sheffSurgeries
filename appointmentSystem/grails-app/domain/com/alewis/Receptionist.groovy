@@ -19,4 +19,6 @@ class Receptionist {
 		recepPhone blank:false, nullable:false, size:0..15
 
     }
+    //Declaring Relationships
+    static belongsTo = [surgery:Surgery]
 }

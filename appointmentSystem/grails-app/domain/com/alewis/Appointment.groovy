@@ -17,4 +17,6 @@ class Appointment {
 		roomNumber blank:false, nullable:false
 
     }
+    //Declaring Relationships
+    static belongsTo = [surgery:Surgery, doctor:Doctor, patient:Patient]
 }
