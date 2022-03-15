@@ -24,6 +24,6 @@ class Patient {
 		
     }
     //Declaring Relationships
-    static hasMany = [doctor:Doctor, surgery:Surgery, prescription:Prescription]
-    static hasOne = [appointment:Appointment]
+    static hasMany = [doctor:Doctor, surgery:Surgery, prescription:Prescription, appointment:Appointment]
+    
 }
