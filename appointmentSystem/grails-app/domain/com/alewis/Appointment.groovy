@@ -18,5 +18,5 @@ class Appointment {
 
     }
     //Declaring Relationships
-    static belongsTo = [surgery:Surgery, doctor:Doctor, patient:Patient]
+    static hasOne = [surgery:Surgery, doctor:Doctor, patient:Patient]
 }

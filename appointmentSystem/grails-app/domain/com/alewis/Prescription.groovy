@@ -22,5 +22,5 @@ class Prescription {
 		
     }
     //Declaring Relationships
-    static belongsTo = [doctor:Doctor, patient:Patient]
+    static hasOne = [doctor:Doctor, patient:Patient]
 }
