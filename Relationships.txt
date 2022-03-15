@@ -1,0 +1,33 @@
+Appointment - hasOne = Surgery, Doctor, Patient
+Doctor - hasMany = Prescription, Patient, Appointment, nurse
+Doctor - belongsTo = Surgery 
+Nurse - hasMany = Doctor
+Nurse - belongsTo = Surgery 
+Patient - hasMany = Doctor, Surgery
+Patient - hasOne = Prescription
+Prescription - hasOne = Doctor, Patient
+Receptionist - belongsTo = Surgery 
+Surgery - hasMany = Doctor, Receptionist, Appointment, Patient, Nurse
+
+One to one -
+Patient - Appointment = one patient can have one appointment
+
+One to Many -
+Surgery - Doctor = one surgery can have many doctors
+Surgery - Nurse = one surgery can have many nurses
+Surgery - Receptionist = one surgery can have many receptionists
+Surgery - Appointment = one surgery can have many appointments
+Doctor - Appointment = one doctor can have many appointments
+Doctor - Prescription = one doctor can have many prescriptions 
+Patient - Prescription = one patient can have many prescriptions 
+
+Many to many 
+Doctor - Patient = many doctors can have many patients
+Doctor - Nurse = many doctors can have many nurses
+Surgery - Patient = many surgeries can have many patients 
+
+
+
+
+
+
