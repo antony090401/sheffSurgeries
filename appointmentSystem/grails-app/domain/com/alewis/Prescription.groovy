@@ -10,6 +10,10 @@ class Prescription {
     Date dateIssued
     Boolean patientpaying 
 
+    String toString(){
+        return pharmacyName;
+    }
+
     static constraints = {
 
         //Write Constraints
