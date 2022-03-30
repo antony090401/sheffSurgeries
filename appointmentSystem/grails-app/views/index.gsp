@@ -6,53 +6,46 @@
 </head>
 <body>
 <div class="row">
-<div class="first">
-    <h3>Manage Appointments</h3>
-        <p>book an Appointment</p>
-    <button type="button" class="btn btn-success">
-        <g:link controller="Appointment" action="create">Book Appointment</g:link>
+<div class="cont">
+    <h3>Appointments</h3>
+    <button type="button" class="btn btn-success" style="margin:5px;>
+        <g:link controller="Appointment" action="create">View Appointments</g:link>
     </button>
 </div> 
-<div class="second">
+<div class="cont">
     <h3>Doctors</h3>
-        <p>register a new Doctor</p>
-    <button type="button" class="btn btn-success">
-        <g:link controller="Doctor" action="create">New Doctor</g:link>
+    <button type="button" class="btn btn-success" style="margin:5px;>
+        <g:link controller="Doctor" action="create">View Doctors</g:link>
     </button>
 </div>
-<div class="third">
+<div class="cont">
     <h3>Nurses</h3>
-        <p>register a new nurse</p>
-    <button type="button" class="btn btn-success">
-        <g:link controller="Nurse" action="create">New Nurse</g:link>
+    <button type="button" class="btn btn-success" style="margin:5px;>
+        <g:link controller="Nurse" action="create">View Nurses</g:link>
     </button>
 </div>
-<div class="fourth">
+<div class="cont">
     <h3>Patients</h3>
-        <p>register a new Patient</p>
-    <button type="button" class="btn btn-success">
-        <g:link controller="Patient" action="create">New Patient</g:link>
+    <button type="button" class="btn btn-success" style="margin:5px;>
+        <g:link controller="Patient" action="create">View Patients</g:link>
     </button>
 </div>
-<div class="fifth">
-    <h3>Manage Prescriptions</h3>
-        <p>book a new Prescription</p>
-    <button type="button" class="btn btn-success">
-        <g:link controller="Prescription" action="create">New Prescription</g:link>
+<div class="cont">
+    <h3>Prescriptions</h3>
+    <button type="button" class="btn btn-success" style="margin:5px;>
+        <g:link controller="Prescription" action="create">View Prescriptions</g:link>
     </button>
 </div>
-<div class="sixth">
+<div class="cont">
     <h3>Receptionists</h3>
-        <p>register a new Receptionist</p>
-    <button type="button" class="btn btn-success">
-        <g:link controller="Receptionist" action="create">New Receptionist</g:link>
+    <button type="button" class="btn btn-success" style="margin:5px;>
+        <g:link controller="Receptionist" action="create">View Receptionist</g:link>
     </button>
 </div>
-<div class="seventh">
+<div class="cont">
     <h3>Surgeries</h3>
-        <p>click here to register a new Surgery</p>
-    <button type="button" class="btn btn-success">
-        <g:link controller="Surgery" action="create">New Surgery</g:link>
+    <button type="button" class="btn btn-success" style="margin:5px;>
+        <g:link controller="Surgery" action="create">View Surgeries</g:link>
     </button>
 </div>
     <%--<asset:image src="hospital.jpg"/>--%>

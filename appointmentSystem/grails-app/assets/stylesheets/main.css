@@ -596,3 +596,9 @@ img.grails-logo {
 #back {
     background-color: #006dba  ;
 }
+
+
+.cont {
+    padding-left: 70px;
+    padding-right: 30px;
+}
