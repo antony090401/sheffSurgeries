@@ -16,11 +16,9 @@
 
 <body>
 
-<div class="row">
- <asset:image src="rainbow-badge-banner.png"
- width="1920"
- height="300"/>
- </div>
+<div class="row" id="back">
+    <asset:image src="rainbow-badge-banner.png"/>
+</div>
 
 <g:layoutBody/>
 
