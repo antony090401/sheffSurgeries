@@ -4,15 +4,10 @@
     <meta name="layout" content="main"/>
     <title>UK Surgeries|Homepage</title>
 </head>
-<body>
-<div class="row">
-<%--<div class="cont">
-    <h3>Appointments</h3>
-    <button type="button" class="btn btn-success" style="margin:5px";>
-        <g:link controller="Appointment" action="create">View Appointments</g:link>
-    </button>
-</div> 
-<div class="cont">
+    <body>
+        <div id="content" role="main">
+            <div class="row">
+            <div class="cont">
     <h3>Doctors</h3>
     <button type="button" class="btn btn-success" style="margin:5px";>
         <g:link controller="Doctor" action="create">View Doctors</g:link>
@@ -47,19 +42,9 @@
     <button type="button" class="btn btn-success" style="margin:5px";>
         <g:link controller="Surgery" action="create">View Surgeries</g:link>
     </button>
-</div> --%>
-    <%--<asset:image src="hospital.jpg"/>--%>
- </div>
-
-
-<div id="content" role="main">
-    <div class="container">
-        <section class="row colset-2-its">
-            <h1>This is the homepage for the UK Surgeries web service</h1>
-
-        </section>
-    </div>
 </div>
+            </div>
+        </div>
+    </body>
 
-</body>
 </html>

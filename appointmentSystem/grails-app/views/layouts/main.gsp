@@ -18,8 +18,10 @@
 
 <div class="row" id="back">
     <asset:image src="rainbow-badge-banner.png"/>
+    
 </div>
-
+<div id="login" <g:loginToggle />
+</div>
 <g:layoutBody/>
 
 <div class="footer" role="contentinfo">

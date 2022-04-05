@@ -8,7 +8,25 @@ class ReceptionistController {
     ReceptionistService receptionistService
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
-
+    def login() {
+    
+    }
+    def validate() {
+        def user = Receptionist.findByUsername(params.username)
+            if (user && user.password == params.password){
+        session.user = user
+        render view:'receptionist'
+    }
+    else{
+    flash.message = "Invalid username and password."
+    render view:'login'
+    }
+    }
+    def logout = {
+    session.user = null
+    redirect(uri:'/')
+    }
+    
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond receptionistService.list(params), model:[receptionistCount: receptionistService.count()]
